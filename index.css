@@ -1,0 +1,104 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    width: 100%;
+    height: 100vh;
+    /* background-color: whitesmoke; */
+    background-image: linear-gradient(45deg,#6441A5,#2a0845);
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+.game
+{
+    width: 50%;
+    height: 70%;
+    background: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+.box
+{
+    width: 32%;
+    height: 32%;
+    background: #F7F7FF;
+    border-radius: 10px;
+    border: none;
+    font-size: 20vmin;
+    color:#EA526F;
+    box-shadow: 0 0 3px gray;
+}
+.reset
+{
+    padding: 10px;
+    background-color: #912F56;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 10px;
+    border: none;
+}
+.reset:hover
+{
+    background-color: #521945;
+}
+.winner
+{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 48%;
+    /* background-color: salmon; */
+    border: none;
+    border-radius: 30px;
+    /* background:whitesmoke; */
+    padding: 10px;
+    /* border: 1px solid #000; */
+    color: white;
+}
+.winnertext
+{
+    /* background-color: #EA526F; */
+
+    border-radius: 10px;
+}
+.hide{
+    display: none;
+}
+.winner h1
+{
+    font-size: 3em;
+}
+.newgame{
+    padding: 10px;
+    background-color: #070600;
+    border-radius: 20px;
+    color: white;
+    font-size: larger;
+    border: 3px solid gold;
+    /* box-shadow: 2px 3px  gray; */
+}
+.newgame:hover
+{
+    background-color: blue;
+}
+
+.blur
+{
+    opacity: 0.3;
+}
